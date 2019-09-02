@@ -4,7 +4,7 @@ import {TestmeComponent} from './testme/testme.component';
 
 
 const routes: Routes = [
-  {path: 'trax-one/user-management/auth', component: TestmeComponent}/*,
+  {path: 'check/user-management/auth', component: TestmeComponent}/*,
   {
     path: 'features-modules',
     loadChildren: () => import('app/features-modules/features-modules.module').then(m => m.FeaturesModulesModule)
