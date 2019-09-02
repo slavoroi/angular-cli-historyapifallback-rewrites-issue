@@ -1,9 +1,10 @@
 # historyApiFallback.rewrites issue
 
-
 ## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:8095/check/user-management/auth`. The app will automatically reload if you change any of the source files.
+1) `npm i`
+2) `ng serve`
+3) go to http://localhost:8095/check/user-management/auth and index.html isn't served.
+4) If you delete `rewrites` array from historyApiFallback in node_modules/@angular-devkit/build-angular/src/dev-server/index.js it works.
 
 ## Code scaffolding
 
